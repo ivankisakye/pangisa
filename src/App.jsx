@@ -5,6 +5,7 @@ import Policies from './pages/Policies'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
+import WhatsApp from './components/WhatsApp'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <WhatsApp />
     </div>
   )
 }
